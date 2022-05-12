@@ -45,9 +45,9 @@ img {
 audio {
     position: absolute;
     top: 90%;
-    left: 50%;
-    width: 5%;
-    color:rgb(247, 233, 233);
+    left: 80%;
+    width: 10%;
+    
 }
 
 a {
@@ -85,7 +85,7 @@ img:hover {
     }
 
     .icons {
-            left: 70%;
+            left: 10%;
             top: 86%;
     }
 
@@ -94,7 +94,7 @@ img:hover {
         font-size: 15px;
     }
     audio {
-        width: 10%;
+        width: 20%;
     }
 }
 
