@@ -82,8 +82,8 @@ img:hover {
 
     .icons {
             left: 70%;
-            top: 80%;
-        }
+            top: 86%;
+    }
 
         li {
         padding: 0px;
@@ -92,6 +92,7 @@ img:hover {
 }
 
 @media only screen and (min-width:769px) and (max-width: 1560px) {
+
     section {
         margin: 200px 100px;
           }
