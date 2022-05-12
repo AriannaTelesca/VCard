@@ -45,6 +45,7 @@ img {
 audio {
     position: absolute;
     top: 90%;
+    left: 50%;
     width: 5%;
     color:rgb(247, 233, 233);
 }
