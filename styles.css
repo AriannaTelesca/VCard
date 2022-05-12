@@ -43,7 +43,10 @@ img {
 }
 
 audio {
-    display: none;
+    position: absolute;
+    top: 90%;
+    width: 5%;
+    color:rgb(247, 233, 233);
 }
 
 a {
@@ -89,12 +92,15 @@ img:hover {
         padding: 0px;
         font-size: 15px;
     }
+    audio {
+        width: 10%;
+    }
 }
 
 @media only screen and (min-width:769px) and (max-width: 1560px) {
 
     section {
-        margin: 200px 100px;
+        margin: 200px;
           }
 
       img   {
