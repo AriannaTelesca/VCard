@@ -9,7 +9,7 @@ body {
 section {
     display: block;
     background-image: linear-gradient(to right, rgba(163, 157, 157, 0.8), rgb(247, 233, 233));
-    margin: 250px 500px;
+    margin: 15% 20% 5% 20%;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -20,7 +20,6 @@ section {
 
 li {
     display:inline-block;
-    /*padding-right: 30px;*/
     font-size: 20px;
 }
 
@@ -34,34 +33,21 @@ i {
 }
 
 img {
-    padding: 0px;
+    padding: 5%;
     border-radius: 50%;
-    width: 180px;
     position: absolute;
-    top: 220px;
-    left:470px;
-}
-
-audio {
-    position: absolute;
-    top: 90%;
-    left: 80%;
-    width: 10%;
-    
+    top: 2%;
+    left: 5%;
 }
 
 a {
     color: rgb(247, 233, 233);
-    padding-left: 50px;
 }
 
 .icons {
-    display: block;
-    position: absolute;
-    top: 50px;
-    left: 50px;
+    display: inline-flex;
+  
 }
-
 
 img:hover {
     transform: scaleX(-1);
@@ -69,44 +55,55 @@ img:hover {
 
 .icons i:hover {
     color: rgba(113,78,85,255);
-    transform: scale(4,4);
+    transform: scale(2,2);
 }
 
-@media only screen and (max-width: 768px) {
-    section {
-        margin: 40px 20px;
-        font-size: 20px;
-    }    
-
+.container {
+    display: flex;
+    justify-content: center;
+}
+ 
+@media only screen and (max-width: 690px){
     img {
         width: 25%;
-        top: 2%;
-        left: 5%;
     }
-
-    .icons {
-            left: 10%;
-            top: 86%;
+}
+@media only screen and (min-width: 691px) and (max-width: 992px){
+    img {
+        width: 20%;
     }
+} 
+@media only screen and (max-width: 992px) {
+    section {
+      
+        font-size: 18px;
+    }    
 
         li {
         padding: 0px;
         font-size: 15px;
     }
-    audio {
-        width: 20%;
-    }
+
 }
 
-@media only screen and (min-width:769px) and (max-width: 1560px) {
-
-    section {
-        margin: 200px;
-          }
+@media only screen and (min-width:993px) {
 
       img   {
-          top: 17%;
-          left:13%;
+          width: 15%;
+          top: 5%;
+          left: 10%;
           }
+
+        .icons {
+          font-size: 40px;
+        }
 }
 
+@media only screen and (min-width:1543px) {
+
+    img   {
+        width: 13%;
+        top: 10%;
+        left: 10%;
+   }
+}
