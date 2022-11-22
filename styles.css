@@ -1,5 +1,9 @@
 body {
-    background-image: url(images/universe.webp);
+    background-image: url(images/jake-weirick-bTmhh-Exx9s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(53, 51, 51);
